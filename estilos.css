@@ -1,0 +1,185 @@
+body {
+    background: #4169e1;
+    font-family: Trebuchet MS,Verdana, Helvetica, Arial, sans-serif;
+}
+.center {
+    margin: auto;
+    width: 80%;
+    padding: 1.5em;
+}
+.fundo2 {
+    background: #FFF;
+    width: 95%;
+    margin: auto;
+    padding: 1.5em;
+}
+/************/
+/*CABEÇALHO*/
+#cabecalho{
+    margin: auto;
+    width: 95%;
+    padding: 1.5em;
+    color: #FFF;
+    margin-top: 2em;
+}
+/*NAVEGACAO HORIZONTAL*/
+ul#nav_lateral{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    float: left;
+}
+ul#nav_lateral li { float: left;}
+ul#nav_lateral a {
+    display: block;
+    padding: 0 1.5em;
+    line-height: 1.8em;
+	text-decoration: none;
+	color: #000;
+    background: #fff;
+}
+.com_barra a{
+    border-left: 1px solid #DCDCDC;
+}
+ul#nav_lateral a:hover{
+    color: #4169e1;
+    border-bottom: 1px solid #4169e1;
+}
+
+/*NOME CENTRALIZADO*/
+#nomecentro {
+    float: center;
+    display: block;
+    text-align: center;
+    font-size: 50px;
+}
+h2 {
+    color: black;
+}
+/*GITHUB DE VITOLA*/
+#share{
+    float: right;
+    display: block;
+}
+a#share{
+    padding: 0.6em 2em;
+    line-height: 1.6em;
+    text-decoration: none;
+    border: 2px solid #4169e1;
+    color: #000;
+}
+a#share:hover{
+    color: #FFF;
+    background: #4169e1;
+    border-radius: 5px;
+}
+
+/*FORMATAÇÃO DO TEXTO*/
+#sobre_mim{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 80%;
+    display: flex;
+}
+#sobre_mim img{
+    float: left;
+    display: flex;
+}
+#sobre_mim .texto{
+    padding: 1em 0;
+    font-size: 130%;
+    display: flex;
+    text-align: justify;
+    display: flex;
+}
+#esquerdinha {
+    display: flex;
+    padding-top: 2em;
+    width: 30%;
+    height: 30%;
+}
+#esquerdinha img{
+    height: 100%;
+    width: 100%;
+}
+#direitinha {
+    display: flex;
+    width: 65%;
+    padding: 1em 0;
+    padding-left: 2.5em ;
+}
+#direitinha .titulo{
+    display: block;
+}
+#direitinha .texto{
+    display: flex;
+}
+
+/*CORPO DO TEXTO*/
+#ultimos_projetos {
+    width: 65%;
+    margin: auto;
+    padding: 2em;
+}
+#ultimos_projetos #texto-central{
+    margin: auto 4em;
+    text-align: center;
+}
+#ultimos_projetos .texto-index{
+    width: 60%;
+    padding-left: 10%;
+}
+#ultimos_projetos h1{
+    font-family: 'Oswald', sans-serif;
+    color:#4169e1;
+}
+.titulo{
+    display: block;
+}
+.texto-index .texto{
+    display: flex;
+}
+.texto-index p{
+    display: flex;
+    text-align: justify;
+}
+.imagem img{
+    height: 268px;
+    width: 350px;
+}
+.corpo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2em;
+}
+
+.hobby-formatacao, #cabecalho-hobby{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.hobby-formatacao img{
+    display: inline-block;
+    padding: 0 2.5em;
+}
+.hobby-formatacao video{
+    display: inline-block;
+    padding: 0 2.5em;
+}
+#cabecalho-hobby h1{
+    color: #4169e1;
+}
+
+#cabecalho-hobby h2{
+    font-size: 25px;
+}
+
+#contato {
+    padding: 2em;
+}
+
+#contato img{
+    display: inline-block;
+}
